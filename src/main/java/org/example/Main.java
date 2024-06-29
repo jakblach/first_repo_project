@@ -9,8 +9,13 @@ public class Main {
         fortuner.move(40,0);
         fortuner.accelerate(20);
 //        fortuner.accelerate(-60);
+        System.out.println("***************");
+        fortuner.brake(40);
+        System.out.println("***************");
+
         System.out.println("Current gear : "+ fortuner.getCurrentGear());
         System.out.println("Current gear : "+ fortuner.getCurrentSpeed());
+
 
     }
 }
